@@ -1,6 +1,5 @@
 # short_commands/newversion/android.py
-from gpt import send_to_gpt
-
+from lib.gpt import send_to_gpt
 from lib.short_commands.newversion.generator import generate_new_version_prompt
 
 

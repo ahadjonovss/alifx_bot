@@ -1,8 +1,8 @@
 import openai
 from telegram.ext import ApplicationBuilder, CommandHandler
-from utils import load_keys
-from short_commands.changelog import changelog_handler
-from short_commands.newversion.general import newversion_handler
+
+from lib.handlers import newversion_handler,changelog_handler
+from lib.utils import load_keys
 
 # Load keys from the correct path
 keys_path = './data/keys'  # Update with the absolute path
