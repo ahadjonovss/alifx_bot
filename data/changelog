@@ -1,0 +1,17 @@
+
+---
+
+## [1.2.8] - 04.10.2024
+
+### **Flexi Payments on Flights**
+
+#### **Added**
+- **3D Secure Service:** Integrated to enhance payment security for the Flexi Payments on Flights product.
+
+#### **Fixed**
+- **Swipe Bugs in BottomSheets:** Resolved issues related to swipe interactions in bottom sheets.
+
+### **UIKit**
+
+#### **Added**
+- **TabBarX:** Integrated a new tab bar component for improved navigation.
